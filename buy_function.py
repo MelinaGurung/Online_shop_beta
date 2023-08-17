@@ -2,7 +2,8 @@
 
 with open ("inventory_list.txt","r") as f:
     all_products = f.readlines()
-    #print(*all_products, sep="\n")
+    #print(*all_products,sep="\n")
+    f.close()
 
 def buy(all_products):
     inp = int(input("Which brand are you looking for?:\n1. Adidas\n2. Nike "))
