@@ -11,17 +11,17 @@ def register():
         x.append(a)
         y.append(b)
     data = dict(zip(x,y))
-    print(data)
+    db.close()
 
     if password != password1:
         print("Passwords don't match. Restart.")
         register()
     else:
-        if len(password) < 5:
-            print("Password too short. Restart.")
-            register()
-        elif username in x:
+        if username in x:
             print("Username unavailable")
+            register()
+        elif len(password) < 5:
+            print("Password too short. Restart.")
             register()
         else:
             db = open("login_credentials.txt", "a")
@@ -63,7 +63,7 @@ def home(option=None):
     elif option == "Signup":
         register()
     else:
-        return "invalid command"
-#else function not working
+        print("Invalid command. Back to home")
+        home()
 
 home()
