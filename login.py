@@ -10,7 +10,7 @@ def register():
         b = b.strip()
         x.append(a)
         y.append(b)
-    data = dict(zip(x, y))
+    data = dict(zip(x,y))
     print(data)
 
     if password != password1:
@@ -44,16 +44,17 @@ def access():
             y.append(b)
         data = dict(zip(x,y))
 
-        if data[username]:
-            if password == data[username]:
-                print("Login Successful.")
-                print("Welcome, " + username)
-            else:
-                print("Password is incorrect.")
-                access()
+        if username not in data:
+            print("Username doesn't exist")
         else:
-            print("Username does not exist.")
-            access()
+            if data[username]:
+                if password == data[username]:
+                    print("Login Successful.")
+                    print("Welcome, " + username)
+                else:
+                    print("Password is incorrect.")
+                    access()
+
 
 def home(option=None):
     option = input("Login or Signup: ")

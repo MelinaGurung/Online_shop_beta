@@ -1,45 +1,4 @@
-Male, T-shirt, Nike, L, 350, 100
-Male, T-shirt, Nike, XL, 350, 100
-Male, T-shirt, Nike, M, 350, 100
-Male, T-shirt, Nike, S, 350, 100
-Male, T-shirt, Adidas, XL, 300, 100
-Male, T-shirt, Adidas, L, 300, 100
-Male, T-shirt, Adidas, M, 300, 100
-Male, T-shirt, Adidas, S, 300, 100
-Male, Shoes, Nike, 37, 850, 100
-Male, Shoes, Nike, 38, 850, 100
-Male, Shoes, Nike, 39, 850, 100
-Male, Shoes, Nike, 40, 850, 100
-Male, Shoes, Nike, 41, 850, 100
-Male, Shoes, Nike, 42, 850, 100
-Male, Shoes, Adidas, 37, 800, 100
-Male, Shoes, Adidas, 38, 800, 100
-Male, Shoes, Adidas, 39, 800, 100
-Male, Shoes, Adidas, 40, 800, 100
-Male, Shoes, Adidas, 41, 800, 100
-Male, Shoes, Adidas, 42, 800, 100
-Male, Bag, Nike, backpack, 800, 50
-Male, Bag, Adidas, backpack, 1000,50
-Female, T-shirt, Nike, L, 400, 100
-Female, T-shirt, Nike, XL, 400, 100
-Female, T-shirt, Nike, M, 400, 100
-Female, T-shirt, Nike, S, 400, 100
-Female, T-shirt, Adidas, XL, 300, 100
-Female, T-shirt, Adidas, L, 300, 100
-Female, T-shirt, Adidas, M, 300, 100
-Female, T-shirt, Adidas, S, 300, 100
-Female, Shoes, Nike, 36, 800, 100
-Female, Shoes, Nike, 37, 800, 100
-Female, Shoes, Nike, 38, 800, 100
-Female, Shoes, Nike, 39, 800, 100
-Female, Shoes, Nike, 40, 800, 100
-Female, Shoes, Nike, 41, 800, 100
-Female, Shoes, Adidas, 36, 700, 100
-Female, Shoes, Adidas, 37, 700, 100
-Female, Shoes, Adidas, 39, 700, 100
-Female, Shoes, Adidas, 38, 700, 100
-Female, Shoes, Adidas, 40, 700, 100
-Female, Shoes, Adidas, 41, 700, 100
-Female, Bag, Nike, backpack, 800, 50
-Female, Bag, Adidas, backpack, 1000,50
-
+Female, T-shirt, Nike, 250, 30
+Female, T-shirt, Adidas, 350, 25
+Male, T-shirt, Nike, 350, 25
+Male, T-shirt, Adidas, 300, 20
